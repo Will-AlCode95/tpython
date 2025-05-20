@@ -5,7 +5,7 @@ Diretórios são o lugar onde os arquivos ficam guardados em dispositivos de arm
 
 Os diretórios formam um estrutura em árvore. 
 
-![Estrutura de diretórios do Linux](img/bash/linux-cmd-directory-1.png)
+![Estrutura de diretórios do Linux](/img/bash/linux-cmd-directory-1.png)
 
 `Estrutura de diretórios do Linux`
 
@@ -21,7 +21,7 @@ Quandro abrimos um terminal que roda um shell como o BASH, normalmente somos pos
 
 Nosso diretório HOME fica dentro do diretório chamado... `home`.
 
-![Diretório home do Linux](img/bash/linux-home-directory.png)
+![Diretório home do Linux](/img/bash/linux-home-directory.png)
 
 Durante o trabalho no shell nós criamos novos arquivos e novos diretórios para organizar esses arquivos. Nós também saímos do nosso diretório HOME para irmos trabalhar em outros diretórios, quando precisamos acessar outros arquivos.
 

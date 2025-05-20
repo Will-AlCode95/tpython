@@ -1,5 +1,5 @@
 # O shell BASH
-![BASH](img/bash/bash-logo-web.png)
+![BASH](/img/bash/bash-logo-web.png)
 
 Estamos usando o interpretador de comandos "bash", que é o mais comum de encontrarmos em sistemas Linux.
 
@@ -11,14 +11,14 @@ Links para o GNU BASH
 
 A versão que estamos usando é para sistemas Windows e foi instalada junto com o GIT (sitema de controle de versão que usaremos mais adiante).
 
-![Alt text](img/git/logo@2x.png)
+![Alt text](/img/git/logo@2x.png)
 
 Link para baixar o GIT+BASH
 - [https://git-scm.com/](https://git-scm.com/)
 
 Essa versão do BASH consegue rodar no Windows por causa do suporte de da `MINGW` que é um conjunto de bibliotecas e aplicativos que foram traduzidos do sistema GNU/Linux para o Windows.
 
-![MINGW-w64](img/bash/header-dark.svg)
+![MINGW-w64](/img/bash/header-dark.svg)
 
 O `MINGW` permite que programas como o BASH, que foram escritos para UNIX/LINUX rodem no Windows.
 
@@ -28,13 +28,13 @@ O `MINGW` permite que programas como o BASH, que foram escritos para UNIX/LINUX 
 
 Para abrir um terminal BASH no Windows você clica no icone do GIT-BASH.
 
-![Icone do GIT-BASH](img/git/icone-git-bash.png)
+![Icone do GIT-BASH](/img/git/icone-git-bash.png)
 
 Ele deve estar em sua Área de Trabalho. Se não estiver, use a pesquisa do Windows para encontrar o programa.
 
 Quando você rodar o BASH será aberta uma janela com o fundo preto e um sinal de prompt.
 
-![Janela do BASH no Windows](img/bash/janela-bash-windows.png)
+![Janela do BASH no Windows](/img/bash/janela-bash-windows.png)
 
 `Janela do BASH no Windows`
 
@@ -75,7 +75,7 @@ $ls -lah
 - `date` - mostra a data e hora atuais
 - `clear` - limpa a tela
 - `echo [uma palavra ou linha de texto]` - repete no terminal o que foi digitado após o comando
-![exemplo de saída dos comandos whoami, date e echo ](img/bash/whoami-date-echo-bash.png)
+![exemplo de saída dos comandos whoami, date e echo ](/img/bash/whoami-date-echo-bash.png)
 
 `Exemplo de saída dos comandos whoami, date e echo`
 

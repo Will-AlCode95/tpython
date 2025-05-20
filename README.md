@@ -23,14 +23,7 @@ CMD
 NANO
 - [Editor de texto NANO](NANO-editor-de-textos.md)
 
-BASH
-- [Shell Bash e primeiros comandos](BASH-00-shell.md) - whoami, date, clear, echo
-- [Trabalhando com diretórios](BASH-01-diretorios.md) - árvore de diretórios, diretório HOME, pwd, ls, mkdir, rmdir
-- [Trabalhando com arquivos](BASH-02-arquivos.md) - touch, rm, mv, cat, less, cp, 
-- [Scripts](BASH-03-scripts.md)
-- [printf](BASH-04-printf.md)
-- [parâmetros em linha de comando](BASH-05-parametros.md)
-- [script de inicialização de projeto](BASH-Script-init-proj-1.md)
+- [BASH](bash/README.md)
 
 GIT
 
@@ -51,6 +44,7 @@ VSCODIUM
 ## Desktop
 
 - [Aplicações em linha de comando](aplicacoes/README.md)
+- [Programação Orientada a Objetos](poo/README.md) - POO
 - [Aplicações com interface gráfica](gui/README.md)
 - [Acesso a banco de dados](sqlpy/README.md)
 
