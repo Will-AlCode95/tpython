@@ -2,7 +2,7 @@
 
 Todo documento HTML é representado por uma estrutura de árvore.
 
-![árvore do documento html](img/html-tree.png)
+![árvore do documento html](/img/html-tree.png)
 
 Uma árvore é formada por **nodos**. Cada nodo representa um elemento do documento HTML.
 
@@ -139,7 +139,7 @@ As outras tags usadas no exemplo são:
 
 Essas tags são diferentes das que vimos até agora. Elas contém **atributos**, que são informações que precisamos dar para que o browser interprete corretamente a tag.
 
-![atributo da tag](img/grumpy-cat-attribute-small.png)
+![atributo da tag](/img/grumpy-cat-attribute-small.png)
 Exemplo de *atributo de uma tag*.
 
 Alguns atributos serão obrigatórios mas muitos serão opcionais.

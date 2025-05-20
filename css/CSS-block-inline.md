@@ -2,7 +2,7 @@
 
 Tudo que estilamos com CSS está dentro de uma caixa. Para o CSS, o documento HTML é como uma composição de caixas, dentro de caixas, dentro caixas... desde o corpo da página até o conteúdo dos elementos.
 
-![caixas dentro de caixas](img/boxes.jpg)
+![caixas dentro de caixas](/img/boxes.jpg)
 
 O modo como as caixas serão dispostas na página depende de seu **modo de exibição**, controlado pela propriedade <code>display</code> do elemento.
 
@@ -11,7 +11,7 @@ Os dois modos de exibição que usamos até agora foram os modos padrão:
 - <code>inline</code> - ex. span, que é um elemento inline
 - <code>block</code> - ex. div, que é um elemento block
 
-![](img/inline-block.jpg)
+![](/img/inline-block.jpg)
 
 ## Mostrando e escondendo caixas
 

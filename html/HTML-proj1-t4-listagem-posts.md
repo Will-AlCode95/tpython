@@ -185,7 +185,7 @@ O código vai ficar assim:
 ``` html
 <article>
     <aside>                        
-        <img src="img/icone-estrela.png" />                        
+        <img src="../img/icone-estrela.png" />                        
     </aside>                    
     <header>                        
         <h3>Primeiro post</h3>                        
@@ -208,7 +208,7 @@ O código vai ficar assim:
 
 > Você pode baixar a imagem da estrela no link
 >
-> [ícone-estrela.png](img/icone-estrela.png)
+> [ícone-estrela.png](/img/icone-estrela.png)
 
 # Tarefa 8: Menu do site
 

@@ -14,7 +14,7 @@ A página "about.html" está bem vazia. Vamos melhorá-la.
 
 Modelo da página "about.html"
 
-![Modelo da página sobre.html](img/projeto-about-html.png)
+![Modelo da página sobre.html](/img/projeto-about-html.png)
 
 A página about.html vai ter 4 seções:
 

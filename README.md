@@ -11,23 +11,6 @@
 - [Escopo e módulos](escopo/README.md)
 - [Estruturas de dados](estruturas/README.md)
 
-## Ferramentas
-
-CMD
-- [Usando a linha de comando no Windows ](CLI01.md)
-
-NANO
-- [Editor de texto NANO](NANO-editor-de-textos.md)
-
-BASH
-- [BASH](bash/README.md)
-
-GIT
-- [GIT](git/README.md)
-
-VSCODIUM
-- [VSCodium](vscodium/README.md)
-
 ## Desktop
 
 - [Aplicações em linha de comando](aplicacoes/README.md)
@@ -38,22 +21,24 @@ VSCODIUM
 ## WEB
 
 HTML
-- [span e div](HTML-span-div.md)
-- [árvore do documento](HTML-arvore-doc.md)
-- [html semântico](HTML-semantico.md)
+- [HTML](html/README.md)
 
 CSS
-- [css básico](CSS-basico.md)
-- [seletores](CSS-seletores.md)
-- [laytout: block e inline](CSS-block-inline.md)
+- [CSS](css/README.md)
 
-HTML - Projeto: Site tipo Blog
+## Ferramentas
 
-- [Projeto: site tipo blog](HTML-proj1-Site-tipo-blog.md)
-- [index](HTML-proj1-t1-index.md)
-- [about](HTML-proj1-t2-about.md)
-- [um post](HTML-proj1-t3-um-post.md)
-- [listagem de posts](HTML-proj1-t4-listagem-posts.md)
-- [título e rodapé](HTML-proj1-t5-titulo-e-rodape.md)
-- [publicar site](HTML-proj1-t6-publicar-site.md)
-- [Exercícios](HTML-proj1-exercicios-1.md)
+CMD
+- [Usando a linha de comando no Windows ](CLI01.md)
+
+BASH
+- [BASH](bash/README.md)
+
+NANO
+- [Editor de texto NANO](NANO-editor-de-textos.md)
+
+GIT
+- [GIT](git/README.md)
+
+VSCODIUM
+- [VSCodium](vscodium/README.md)

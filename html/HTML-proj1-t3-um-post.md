@@ -17,7 +17,7 @@ Recordando, nosso site tem três tipos de página:
 1. Crie um arquivo HTML no diretório <code>posts</code>. Ele deve seguir a regra de nomenclatura que foi pedida anteriormente. Neste exemplo, vamos criar o arquivo para um post cujo titulo é "Primeiro post" e que foi publicado no dia 14/03/2023. Observe na figura abaixo:
 
 <figure>
-<img src="img/vscodium-criar-arquivo-post-html.png" />
+<img src="../img/vscodium/vscodium-criar-arquivo-post-html.png" />
 <figcaption style = "text-align: center">Arquivo de post sendo criado no diretório <code>posts</code></figcaption>
 </figure>
 
