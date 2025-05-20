@@ -2,12 +2,8 @@
 
 ## Introdução à programação
 
-
 - [Pensamento Computacional](pc/README.md)
 - [Introdução](intro/index.md) - MakeCode Arcade
-
----
-
 - [Sequências](sequencias/README.md)
 - [Condicionais](condicionais/README.md)
 - [Loops](loops/README.md)
@@ -23,10 +19,10 @@ CMD
 NANO
 - [Editor de texto NANO](NANO-editor-de-textos.md)
 
+BASH
 - [BASH](bash/README.md)
 
 GIT
-
 - [Instalar GIT no windows](GIT-instalar.md)
 - [Criar repositório no Codeberg.org](GIT-criar-repositorio-codeberg.md)
 - [Clonar repositório](GIT-clonar-repositorio.md)
@@ -40,14 +36,12 @@ VSCODIUM
 - [Abrir diretório de projeto](VSCODIUM-01.abrir-diretorio.md)
 - [Servidor WEB de desenvolvimento](VSCODIUM-02-live-server.md) - Extensão Live Server
 
-
 ## Desktop
 
 - [Aplicações em linha de comando](aplicacoes/README.md)
 - [Programação Orientada a Objetos](poo/README.md) - POO
 - [Aplicações com interface gráfica](gui/README.md)
 - [Acesso a banco de dados](sqlpy/README.md)
-
 
 ## WEB
 
