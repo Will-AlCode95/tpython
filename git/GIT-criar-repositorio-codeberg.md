@@ -10,7 +10,7 @@ Para criar um repositório GIT no codeberg siga os links abaixo e as instruçõe
 
 2. clique em [create... new repository](https://codeberg.org/repo/create)
 
-![página do codeberg: new repository](img/git/codeberg-new-repository.png)
+![página do codeberg: new repository](/img/git/codeberg-new-repository.png)
 
 Na página de criação de repositório que se abriu, preencha as informações solicitadas assim:
 

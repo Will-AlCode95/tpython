@@ -15,7 +15,7 @@ O processo de *commit* diz ao GIT que as mudanças que fizemos em um arquivo dev
 1. <kbd>Ctrl+Shift+G</kbd> Para mudar para a aba com as operações do GIT. Note que o painel da esquerda mudou.
 
 <figure>
-<img src="img/vscodium/vscodium-painel-git.png" />
+<img src="../img/vscodium/vscodium-painel-git.png" />
 <figcaption style = "text-align: center">Painel com operações do GIT </figcaption>
 </figure>
 
@@ -36,7 +36,7 @@ No caso, todos os arquivos são novos e o GIT ainda não está observando as mud
 Para isso, vá com o mouse até o nome do arquivo <code>index.html</code> e clique no sinal de <code>+</code> que vai aparecer.
 
 <figure>
-<img src="img/vscodium/vscodium-stage-changes.png" />
+<img src="../img/vscodium/vscodium-stage-changes.png" />
 <figcaption style = "text-align: center">Botão para adicionar um arquivo na lista de commit</figcaption>
 </figure>
 
@@ -44,7 +44,7 @@ Para isso, vá com o mouse até o nome do arquivo <code>index.html</code> e cliq
 Observe que o arquivo <code>index.html</code> agora está com o sinal <code>A</code> que significa 'Added' (adicionado). Isso é porque ele foi adicionado à lista de arquivos para o próximo commit. Antes de fazer esse commit, termine de adicionar os outros dois arquivos.
 
 <figure>
-<img src="img/vscodium/vscodium-staged-changes.png" />
+<img src="../img/vscodium/vscodium-staged-changes.png" />
 <figcaption style = "text-align: center">Botão para adicionar um arquivo na lista de commit</figcaption>
 </figure>
 
@@ -57,7 +57,7 @@ Como esta é a primeira vez que estamos fazendo commit destes arquivos, nada mud
 
 
 <figure>
-<img src="img/vscodium/vscodium-primeiro-commit.png" />
+<img src="../img/vscodium/vscodium-primeiro-commit.png" />
 <figcaption style = "text-align: center">Mensagem de commit</figcaption>
 </figure>
 
@@ -70,7 +70,7 @@ Depois de feito o commit, você vai ver que o botão azul mudou para "Sync chang
 Note que que há uma seta apontando para cima. Isso significa que existem mudanças para "subir" para o servidor. Essa é a operação de "push" que queremos fazer.
 
 <figure>
-<img src="img/vscodium/vscodium-push.png" />
+<img src="../img/vscodium/vscodium-push.png" />
 <figcaption style = "text-align: center">GIT pronto para operação de 'push'</figcaption>
 </figure>
 
@@ -81,7 +81,7 @@ O VSCodium vai mostrar uma caixa de confirmação alertando que esta operação 
 Você pode escolher a opção <kbd>Ok, don't show again</kbd>, que quer dizer "Ok, e não mostre de novo".
 
 <figure>
-<img src="img/vscodium/vscodium-push-ok-dont-show-again.png" />
+<img src="../img/vscodium/vscodium-push-ok-dont-show-again.png" />
 <figcaption style = "text-align: center">Caixa de confirmação da operação de sync</figcaption>
 </figure>
 
@@ -90,12 +90,12 @@ Agora você precisa digitar seu nome de usuário e senha da sua conta no Codeber
 No Linux e no Windows o modo de o VSCodium pedir o nome de usuário e a senha é diferente. Abaixo você tem um exemplo da interface do Linux
 
 <figure>
-<img src="img/vscodium/vscodium-push-username.png" />
+<img src="../img/vscodium/vscodium-push-username.png" />
 <figcaption style = "text-align: center">Digitação do nome de usuário do repositório remoto (usuário da sua conta no Codeberg)</figcaption>
 </figure>
 
 <figure>
-<img src="img/vscodium/vscodium-push-password.png" />
+<img src="../img/vscodium/vscodium-push-password.png" />
 <figcaption style = "text-align: center">Digitação da senha do repositório remoto (senha da sua conta no Codeberg)</figcaption>
 </figure>
 

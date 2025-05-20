@@ -16,12 +16,12 @@ Para criar um novo ramo (observe as imagens abaixo):
 2. No menu que se abriu no topo da janela, ao centro, escolha a opção <code>Create new branch...</code> (Criar novo ramo).
 
 <figure>
-<img src="img/vscodium-create-branch.png" />
+<img src="../img/vscodium/vscodium-create-branch.png" />
 <figcaption style = "text-align: center">Criar um novo ramo</figcaption>
 </figure>
 
 <figure>
-<img src="img/vscodium-create-new-branch-pages.png" />
+<img src="../img/vscodium/vscodium-create-new-branch-pages.png" />
 <figcaption style = "text-align: center">Dar um nome ao novo ramo - este vai se chamar <code>pages</code></figcaption>
 </figure>
 
