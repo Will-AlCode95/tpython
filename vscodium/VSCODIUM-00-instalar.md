@@ -28,6 +28,6 @@ A licença de uso do VSCodium também é outra. Ela é a **mesma [licença MIT](
 Após instalar o VSCodium, rode o programa e você deve ver uma tela parecida com esta:
 
 <figure>
-<img src="img/vscodium/vscodium-instalado.png" />
+<img src="../img/vscodium/vscodium-instalado.png" />
 <figcaption style = "text-align: center">VSCodium rodando após instalação</figcaption>
 </figure>

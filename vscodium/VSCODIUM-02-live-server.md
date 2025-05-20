@@ -10,7 +10,7 @@ Esse vai ser nosso Servidor Web **local**. Para instalá-lo vamos usar uma exten
 4. Clique no botão azul <code>install</code> que está abaixo do nome, à direita.
 
 <figure>
-<img src="img/vscodium-extension-live-server-install.png" />
+<img src="../img/vscodium/vscodium-extension-live-server-install.png" />
 <figcaption style = "text-align: center">Extensão Live Server</figcaption>
 </figure>
 
