@@ -1,17 +1,10 @@
 # Trilha Python
 
-
 ## Introdução à programação
 
 
 - [Pensamento Computacional](pc/README.md)
-
 - [Introdução](intro/index.md) - MakeCode Arcade
-
-- [Python Básico](Python-01-Basico.ipynb)
-- [Strings](Python-02-Strings.ipynb)
-- [Entrada e Saída](Logica-03-Entrada-e-Saida.ipynb)
-- [Funções](Python-03-Funcoes.ipynb)
 
 ---
 
