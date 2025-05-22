@@ -1,4 +1,5 @@
 import sys
+import shelve
 
 """
 Model da Agenda
@@ -6,7 +7,7 @@ autor: gustavo razzera
 data: 16/05/2025
 """
 
-minha_agenda = {}
+minha_agenda = shelve.open("agenda.dat", writeback=True)
 
 def cadastrar(agenda, email, nome, idade, endereco, favorito=False):
     status = False
@@ -28,6 +29,14 @@ def favoritar(agenda, email):
     status = True
     try:
         agenda[email][3] = True        
+    except KeyError:
+        status = False
+    return (status, email)
+
+def atualizar_nome(agenda, email, novo_nome):
+    status = True
+    try:
+        agenda[email][0] = novo_nome        
     except KeyError:
         status = False
     return (status, email)
@@ -69,10 +78,6 @@ def consultar(agenda, email):
 def listagem(agenda):
     return (True, agenda.items())
 
-def agenda_init():
-    cadastrar(minha_agenda, 'srx@email.com', 'Sr. X', 30, 'Rua x')
-    cadastrar(minha_agenda, 'sry@email.com', 'Sr. Y', 31, 'Rua y', True)
-
 """
     View da agenda
 """
@@ -102,6 +107,7 @@ agenda.py <comando>
 comandos:
 ajuda
 listar
+
 '''
     print(ajuda)
 
@@ -149,6 +155,19 @@ def ctrl_cadastrar(email, nome, idade, endereco, favorito):
     else:
         print(f'Não cadastrado: {email} já existe na agenda')
 
+def ctrl_favoritar(email):
+    ok, email = favoritar(minha_agenda, email)
+    if ok:       
+        print(f'{email} favoritado!')
+    else:
+        print(f"{email} inexistente")
+
+def ctrl_atualizar_nome(email, novo_nome):
+    ok, email = atualizar_nome(minha_agenda, email, novo_nome)
+    if ok:       
+        print(f'{email} atualizado!')
+    else:
+        print(f"{email} inexistente")
 
 # Testes de uso do sistema
 
@@ -222,7 +241,6 @@ def test_ctrl_favoritar():
 # Início da execução programa #
 ###############################
 
-agenda_init()
 print("Agenda 2025 (CLI) - v.0.1.0 - SENAC Tech - POA/RS")
 
 # CTRL (roteador de comandos)
@@ -269,7 +287,21 @@ elif comando == 'cadastrar':
         except IndexError:
             pass
         ctrl_cadastrar(email, nome, idade, endereco, favorito)
-        ctrl_listar()
-
     except IndexError:
         pass
+elif comando == 'favoritar':
+    try:
+        email = sys.argv[2] # favoritar nome@email.com
+        ctrl_favoritar(email)
+    except IndexError:
+        pass
+
+elif comando == 'atualizar_nome':
+    try:
+        email = sys.argv[2]
+        novo_nome = sys.argv[3]
+        ctrl_atualizar_nome(email, novo_nome)
+    except IndexError:
+        pass
+
+minha_agenda.close()
