@@ -6,7 +6,6 @@ Model da Agenda
 autor: gustavo razzera
 data: 16/05/2025
 """
-
 minha_agenda = shelve.open("agenda.dat", writeback=True)
 
 def cadastrar(agenda, email, nome, idade, endereco, favorito=False):
@@ -243,65 +242,39 @@ def test_ctrl_favoritar():
 
 print("Agenda 2025 (CLI) - v.0.1.0 - SENAC Tech - POA/RS")
 
-# CTRL (roteador de comandos)
-try:
-    comando = sys.argv[1] # CTRL recebe da VIEW o comando do USUÁRIO
-except IndexError:
-    ctrl_ajuda()    
-    sys.exit(0) # sai do programa, voltado ao Sist. Operacional informando
-                # código de status 0 (Programa terminou Ok, sem erros)
+argumentos = sys.argv[1:]
 
-if comando == 'listar':
-    ctrl_listar()
-elif comando == 'ajuda':
-    ctrl_ajuda()
-elif comando == 'consultar':
-    try:
-        email = sys.argv[2] # receber parâmetro do
-                            # comando 'consultar'
+
+#
+# Controlador (roteador de comandos)
+#
+match argumentos:
+    case ["ajuda"]:
+        ctrl_ajuda()        
+
+    case["listar"]:
+        ctrl_listar()
+
+    case ["consultar", email]:        
         ctrl_consultar(email)
-    except IndexError:      # Se parâmetro não informado...
-        ctrl_listar()       # ...ctrl lista todos os registros
-                            # por padrão (default)
-elif comando == 'apagar':
-    try:
-        email = sys.argv[2]
-        ctrl_apagar(email)
-    except IndexError:
-        pass                # ignorando o erro
-elif comando == 'cadastrar':
-    try:
-        email = sys.argv[2]
-        nome = sys.argv[3]
-        idade = int(sys.argv[4]) # converter de str para int
-        endereco = sys.argv[5]        
-        favorito = False
-        try:
-            cod_favorito = sys.argv[6] # vazio, * = favorito; x = não favorito
-            if cod_favorito == '*':
-                favorito = True
-            elif cod_favorito == 'x':
-                favorito = False
-            else:
-                favorito = False
-        except IndexError:
-            pass
-        ctrl_cadastrar(email, nome, idade, endereco, favorito)
-    except IndexError:
-        pass
-elif comando == 'favoritar':
-    try:
-        email = sys.argv[2] # favoritar nome@email.com
-        ctrl_favoritar(email)
-    except IndexError:
-        pass
 
-elif comando == 'atualizar_nome':
-    try:
-        email = sys.argv[2]
-        novo_nome = sys.argv[3]
+    case ["favoritar", email]:
+        ctrl_favoritar(email)
+
+    case ["apagar", email]:
+        ctrl_apagar(email)
+        
+    case ["cadastrar", email, nome, idade, endereco]:
+        ctrl_cadastrar(email, nome, int(idade), endereco, False)
+
+    case ["cadastrar", email, nome, idade, endereco, ('*' | 'x') as favoritar]:
+        favorito = False
+        if favoritar == '*':
+            favorito = True        
+        ctrl_cadastrar(email, nome, int(idade), endereco, favorito)
+    
+    case ["atualizar_nome", email, novo_nome]:
         ctrl_atualizar_nome(email, novo_nome)
-    except IndexError:
-        pass
+
 
 minha_agenda.close()
