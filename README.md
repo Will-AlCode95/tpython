@@ -14,9 +14,10 @@
 ## Desktop
 
 - [Aplicações em linha de comando](aplicacoes/README.md)
+- [Introdução à linguagem SQL](sql/README.md)
+- [Acesso a banco de dados com Python](sqlpy/README.md)
 - [Programação Orientada a Objetos](poo/README.md) - POO
 - [Aplicações com interface gráfica](gui/README.md)
-- [Acesso a banco de dados](sqlpy/README.md)
 
 ## WEB
 
